@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+    margin: auto;
+    overflow-x: hidden;
+}
+/* Navbar styling starts here */
+.navbar{
+    background-color: #000F45;
+    color: wheat;
+    padding: 20px 0px 20px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.navbar ul li{
+    list-style: none;
+    padding-right: 40px;
+    
+}
+.navbar ul{
+    display: flex;
+    
+}
+/* Landing section styling starts here */
+.landing{
+    text-align: center;
+    display: flex;
+    color: wheat;
+    background-image: url(assets/sunset.jpg);
+    justify-content: space-around;
+}
+.landingimg img{
+    padding-top: 10px;
+    border-radius: 50%;
+    
+}
+.landingtxt{
+    padding-top: 200px;
+    
+}
