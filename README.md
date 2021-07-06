@@ -1,6 +1,6 @@
-# {My Portfolio}
-#### {This is breif details about me}, {Created on 9th July 2021}
-#### By **{<a href="github.com/allanlimo02">Allan Limo</a>}**
+# My Portfolio
+#### This is breif details about me}, {Created on 9th July 2021
+#### By **<a href="github.com/allanlimo02" target="_blank">Allan Limo</a>**
 ## Description
 This is my personal portfolio. It contains all my details, schools i have gone to, what i have done for personal development and a snipet about my life
 
@@ -28,4 +28,4 @@ Instagram: allaney_ngetich
 ### License
 *{Determine the license under which this application can be used.  See below for more details on licensing.}*
 Copyright (c) {2021} 
-**{Made with pride for <a href="https://moringaschool.com">Moringa School</a>}**
+**{Made with pride for <a href="https://moringaschool.com" target="_blank">Moringa School</a>}**
