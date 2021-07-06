@@ -29,6 +29,7 @@ body{
     color: wheat;
     background-image: url(assets/sunset.jpg);
     justify-content: space-around;
+    background-size: cover;
 }
 .landingimg img{
     padding-top: 10px;
