@@ -12,7 +12,7 @@ This is my personal portfolio. It contains all my details, schools i have gone t
 * run this comand in your terminal git clone https//:github.com/allanlimo02/portfolio
 
 ## Known Bugs
-Currently, i have fixed alll the bugs it had, unless you add your code, that you will need to refix any mulfunctioning
+Currently, i have fixed all the bugs it had, unless you add your code, that you will need to refix any mulfunctioning
 ## Technologies Used
 In this project, I used the following technologies:
 * HTML
