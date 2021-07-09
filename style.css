@@ -31,6 +31,7 @@ body{
     background-image: url(assets/newbg.jpg);
     background-size: cover;
     justify-content: space-around;
+    background-size: cover;
 }
 .landingimg img{
     padding-top: 10px;
@@ -55,7 +56,7 @@ body{
         color: black;
         display: inline;
         background-color: red;
-        background-image: url(assets/mobilebg.jpg);
+        /* background-image: url(assets/mobilebg.jpg); */
     }
     .landingimg img{
         height: 50%;
@@ -83,4 +84,59 @@ body{
 .bio1 img{
     border-radius: 50%;
     
+}
+@media screen and (max-width: 500px) {
+    
+    .bio{
+        display: inline;
+    }
+    .bio1 img{
+        height: 50%;
+        width: 50%;
+        align-items: center;
+    }
+    .bio2 p{
+        font-size: smaller;
+    }
+}
+@media screen and (max-width: 1000px) {
+    
+    .bio{
+        display: inline;
+    }
+    .bio1 img{
+        height: 70%;
+        width: 70%;
+        align-items: center;
+    }
+    .bio2 p{
+        font-size: smaller;
+    }
+}
+
+
+/* CTA STARTS HERE */
+.cta{
+    padding:100px 50px 100px 50px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background-image: url(assets/c_image.jpg);
+}
+.cta button{
+    background-color: #e06624;
+    color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+/* Footer styling starts here */
+footer {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 100;
+    padding-top: 70px;
+    background-color: #000F45;
+    color: wheat;
+    padding-bottom: 70px;
 }
