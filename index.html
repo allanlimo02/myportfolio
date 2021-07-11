@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="shortcut icon" type="image/jpg" href="assets/84502891.png"/>
+    <link rel="shortcut icon" type="image/jpg" href="assets/84502891.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Allan Limo</title>
@@ -17,19 +17,22 @@
     <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container">
             <a href="#" class="navbar-brand">ALLAN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Home</a>
+                        <a href="#" class="nav-link" id="navmenu">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">About</a>
+                        <a href="#" class="nav-link" id="navmenu">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Portfolio</a>
+                        <a href="#" class="nav-link" id="navmenu">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Contact Me</a>
+                        <a href="#" class="nav-link" id="navmenu">Contact Me</a>
                     </li>
                 </ul>
             </div>
@@ -300,10 +303,10 @@
                             <label for="exampleInputPassword1" class="form-label"> Your Email</label>
                             <input type="email" class="form-control" id="useremail">
                         </div>
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        <div id="emailHelp" class="form-text">Your email is safe with Us 😊.</div>
                         <div class="mb-3 form-check">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            <label class="form-check-label" for="exampleCheck1">Confirm Details</label>
                         </div>
                         <button type="submit" class="btn btn-primary" onclick="validator()">Submit</button>
                         <br><br>
@@ -324,8 +327,8 @@
         0726 832 007
         <br>
         allanlimo02@gmail.com
-        <br>
-        ©2021 | All rights reserved
+        <br><br><br>
+      <p style="font-size: 19px;">©2021 | All rights reserved</p>  
     </footer>
 
     <script src="validator.js"></script>
