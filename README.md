@@ -26,6 +26,6 @@ Twitter: allan__limo
 Facebook: Allan Ngetich Chichi
 Instagram: allaney_ngetich
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*{This document comes with MIT Licence. Find the License document attached to it to learn more about it}*
 Copyright (c) {2021} 
 **{Made with pride for <a href="https://moringaschool.com" target="_blank">Moringa School</a>}**
