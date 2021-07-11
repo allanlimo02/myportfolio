@@ -32,6 +32,7 @@ body{
     background-size: cover;
     justify-content: space-around;
     background-size: cover;
+    padding-top: 100px;
 }
 .landingimg img{
     padding-top: 10px;
@@ -198,4 +199,7 @@ footer {
     background-color: #000F45;
     color: wheat;
     padding-bottom: 70px;
+}
+footer img{
+    margin-left:20px ;
 }
