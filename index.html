@@ -13,31 +13,35 @@
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg bg-dark">
+    <!-- Navbar starts here -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
         <div class="container">
-            <a href="#" class="navbar-brand">ALLAN</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link" id="navmenu">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link" id="navmenu">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link" id="navmenu">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link" id="navmenu">Contact Me</a>
-                    </li>
-                </ul>
-            </div>
+          <a href="#" class="navbar-brand"><img src="assets/Handdrawn Circle Logo.png" alt="" height="40px" width="40px" style="border-radius: 50%;"></a>
+  
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#bio" class="nav-link">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a href="#myskills" class="nav-link">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contactform" class="nav-link">Contact Me</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
     <!-- <div class="navbar">
         <ul>
             <li>Home</li>
@@ -60,7 +64,7 @@
         </div>
 
     </div>
-    <div class="bio" data-aos="fade-up">
+    <div class="bio" id="bio" data-aos="fade-up">
         <div class="bio1">
             <img src="assets/bioimage.JPG" alt="" height="661px" width="925px">
         </div>
@@ -105,7 +109,7 @@
 
     </div><br>
     <!-- My skills -->
-    <div class="myskills bg-info">
+    <div class="myskills bg-info" id="myskills">
         <h1 style="text-align: center; color: white;">My Projects</h1><br><br>
         <div class="container">
             <div class="row">
@@ -285,7 +289,7 @@
 
     </div>
     <!-- Form -->
-    <div class="contactform">
+    <div class="contactform" id="contactform">
         <div class="container">
             <h2 style="text-align: center;">Let me Contact You back</h2>
             <div class="row">
