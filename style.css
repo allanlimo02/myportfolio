@@ -4,7 +4,7 @@ body{
     overflow-x: hidden;
 }
 /* Navbar styling starts here */
-.navbar{
+/* .navbar{
     background-color: #000F45;
     color: wheat;
     padding: 20px 0px 20px 0px;
@@ -12,9 +12,9 @@ body{
     font-weight: 600;
     text-align: center;
 
-}
+} */
 
-.navbar ul li{
+/* .navbar ul li{
     list-style: none;
     padding-right: 40px;
     
@@ -22,13 +22,32 @@ body{
 .navbar ul{
     display: flex;
     
+} */
+/*  */
+.navbar{
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #004763;
+}
+.getstarted{
+    margin: 15px;
+}
+.projects a{
+    color: #fff;
+    text-decoration: none;
+}
+.contactform{
+    background-image: url(/assets/coolbgx.png);
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 /* Landing section styling starts here */
 .landing{
     text-align: center;
     display: flex;
     color: wheat;
-    background-image: url(assets/newbg.jpg);
+    background-image: url(assets/Frame1.png);
     background-size: cover;
     justify-content: space-around;
     background-size: cover;
@@ -40,6 +59,7 @@ body{
     height: 80%;
     
 }
+/*   */
 .landingtxt h1{
     font-size: 80px;
 }
@@ -56,7 +76,7 @@ body{
         
         color: black;
         display: inline;
-        background-color: red;
+        background-image: url(assets/newbg.jpg);    
         /* background-image: url(assets/mobilebg.jpg); */
     }
     .landingimg img{
@@ -202,4 +222,13 @@ footer {
 }
 footer img{
     margin-left:20px ;
+}
+.footer1{
+    background-color: #004763;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.rightmrg{
+    border-left: 1px white solid;
 }
