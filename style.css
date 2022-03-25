@@ -232,3 +232,17 @@ footer img{
 .rightmrg{
     border-left: 1px white solid;
 }
+.prevproject{
+    background-image: url(./assets/projectsbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+
+}
+.one{
+    border: 2px solid red;
+    border-radius: 15px;
+}
+.pdn{
+    padding: 5px;
+}
