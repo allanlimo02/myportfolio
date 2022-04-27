@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="shortcut icon" type="image/jpg" href="assets/84502891.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/validator.js"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <title>Allan Limo</title>
 </head>
-
+    
 <body>
     <!-- Navbar starts here -->
     <!-- <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
@@ -41,14 +43,16 @@
     End Nav Bar -->
 
     <!-- New Floating Navbar -->
-    <nav class="navbar rounded navbar-light ">
-        <a href="index.html" class="navbar-brand"><img src="./assets/Handdrawn Circle Logo.png" style="border-radius: 50%;" height="70px" width="70px" alt=""></a>
-        <form class="form-inline">
-            <button href="#bio" class="btn btn-primary my-2 my-sm-0" type="submit">Get Started</button>
-          <button href="#" class="btn btn-outline-light my-2 my-sm-0 getstarted" type="submit">Contact Me</button>
-        </form>
-      </nav>
-    
+    <div class="navigation">
+        <nav class="navbar rounded navbar-light ">
+            <a href="index.html" class="navbar-brand"><img src="./assets/Handdrawn Circle Logo.png" style="border-radius: 50%;" height="70px" width="70px" alt=""></a>
+            <form class="form-inline">
+                <a href="#bio"><button  class="btn btn-primary my-2 my-sm-0" type="submit">Get Started</button></a>
+                <a href="#footer1"><button class="btn btn-outline-light my-2 my-sm-0 getstarted" type="submit">Contact Me</button></a>
+            </form>
+          </nav>
+        
+    </div>
     <!--  -->
     <div class="landing">
         <div class="landingimg">
@@ -342,7 +346,7 @@
                     <form>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Your Name</label>
-                            <input type="text" style="color: black;" placeholder="Your name" class="form-control" id="username" aria-describedby="emailHelp">
+                            <input type="text" style="color: black;" placeholder="Your name" class="form-control" id="username">
 
                         </div>
                         <div class="mb-3">
@@ -368,7 +372,7 @@
 
     <!--Footer starts here-->
 
-    <div class="footer1 ">
+    <div class="footer1" id="footer1">
         <div class="container">
         <div class=" row ">
             <!-- Col One -->
@@ -447,8 +451,7 @@
 
     </div>
 
-    <script src="validator.js"></script>
-
+  
 </body>
 
 </html>

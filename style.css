@@ -24,11 +24,17 @@ body{
     
 } */
 /*  */
+.navigation{
+    background-color: #004763;
+}
 .navbar{
     padding-left: 40px;
     padding-right: 40px;
     background-color: #004763;
-}
+    scroll-behavior: smooth;
+    width: 80%;
+    left: 10%;
+    }
 .getstarted{
     margin: 15px;
 }
@@ -51,7 +57,7 @@ body{
     background-size: cover;
     justify-content: space-around;
     background-size: cover;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 .landingimg img{
     padding-top: 10px;
@@ -97,8 +103,18 @@ body{
     display: flex;
     
 }
+.bio2 p,ul li{
+    color: #fff;
+}
+.bio2 h1{
+    color: #fba43b;
+}
+.bio2 h4{
+    color: #f1ed00;
+}
 .bio2{
-    padding-left: 20px;    
+    padding-left: 20px;   
+    background-color: #004763; 
 }
 /* .bio1 img{
      border-radius: 50%; 
@@ -116,6 +132,7 @@ body{
     }
     .bio2 p{
         font-size: smaller;
+        color: #fff;
     }
 }
 @media screen and (max-width: 1000px) {
@@ -137,18 +154,22 @@ body{
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.resume {
+    background-color: #000F45;
+}
 .resume .resume-title {
     font-size: 26px;
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #45505b;
+    color: #8fff0f;
   }
   
   .resume .resume-item {
     padding: 0 0 20px 20px;
     margin-top: -2px;
-    border-left: 2px solid #0563bb;
+    border-radius: 20%;
+    border-left: 2px solid #dde1e6;
     position: relative;
   }
   
@@ -158,25 +179,28 @@ body{
     font-weight: 600;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
-    color: #0563bb;
+    color: #fba43b;
     margin-bottom: 10px;
   }
   
   .resume .resume-item h5 {
     font-size: 16px;
-    background: #f7f8f9;
     padding: 5px 15px;
     display: inline-block;
     font-weight: 600;
+    color: #f1ed00;
     margin-bottom: 10px;
   }
-  
+  .resume p{
+      color: #ffffff;
+  }
   .resume .resume-item ul {
     padding-left: 20px;
   }
   
   .resume .resume-item ul li {
     padding-bottom: 10px;
+    color: #ffffff;
   }
   
   .resume .resume-item:last-child {
